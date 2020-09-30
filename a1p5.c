@@ -2,10 +2,19 @@
 int main()
 {
 	int a,y;
-	printf("please enter the no");
+	double k;
+	char c;
+	printf("please");
         scanf("%d",&a);
+	scanf("%d",&k);
+	y=a-y;
+	while(k!=0)
+	{
+		y--;
+	}
 
         y=(a-(a%100))/100;
 
 printf("the no is %d",y);
+	printf("%d",k);
 }
