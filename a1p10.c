@@ -11,6 +11,6 @@ int main()
 	t=(a%100)/10;
 
 	y=z+x+t;
-	printf("the no is %d",y);
+	printf("the answer is %d",y);
 }
 
